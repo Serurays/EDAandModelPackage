@@ -1,12 +1,10 @@
 Package: EDAandModelPackage
-Title: What the Package Does (One Line, Title Case)
+Title: Comprehensive Exploratory Data Analysis and Model Training
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Serra", "Aksoy", , "serurays@gmail.com", role = c("aut", "cre"))
+Description: This package provides functions for performing exploratory data analysis (EDA) and training various machine learning models. The EDA function summarizes data types, basic statistics, and missing values while generating specified plots. The model training function builds and evaluates multiple regression or classification models using cross-validation, streamlining the initial stages of data analysis and predictive model development.
+License: MIT LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
